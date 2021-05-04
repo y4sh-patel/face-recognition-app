@@ -27,6 +27,7 @@ const particlesParameters = {
 class App extends Component {
     constructor() {
         super();
+        document.title = "Face Reco";
         this.state = {
             input: "",
             inputURL: "",
@@ -66,7 +67,6 @@ class App extends Component {
     }
 
     displayFaceBox = (box) => {
-        console.log(box);
         this.setState({ box: box });
     };
 

@@ -2,10 +2,6 @@
     text-align: center;
 }
 
-body {
-    padding-top: 5%;
-}
-
 .center {
     display: flex;
     justify-content: center;

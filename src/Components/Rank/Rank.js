@@ -3,9 +3,8 @@ import React from "react";
 const Rank = () => {
     return (
         <div>
-            <div className="white f3">
-                Detect faces in your images, Give it a try{""}
-            </div>
+            <div className="white f3">{"Yash, your current rank is ..."}</div>
+            <div className="white f1">{"#5"}</div>
         </div>
     );
 };

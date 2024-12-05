@@ -16,7 +16,7 @@ const app = new Clarifai.App({ apiKey: "0d05b1253dae4d949261c0c3e994ebca" });
 const particlesParameters = {
     particles: {
         number: {
-            value: 100,
+            value: 120,
             density: {
                 enable: true,
                 value_area: 800,
